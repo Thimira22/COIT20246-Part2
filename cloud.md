@@ -27,6 +27,7 @@ This evaluation focuses on two of the most widely used cloud providers: **Amazon
   - **Storage**: $0.10 per GB/month for general-purpose SSD
 
 #### **Cost Breakdown** (For One Instance Running 24/7 for 5 Years):
+
 | **Component**         | **Cost**         |
 |-----------------------|------------------|
 | **Hourly Cost**       | $0.0416          |
@@ -42,7 +43,7 @@ This evaluation focuses on two of the most widely used cloud providers: **Amazon
 
 #### **Disadvantages of AWS**:
 - **Pricing Complexity**: AWS’s **pricing structure** is complex, and without careful management, costs can become difficult to predict.
-- **Costs** Can Rise Quickly: While AWS offers an **on-demand pricing model**, the cost may increase over time, especially when scaling or using data transfer outside of AWS’s infrastructure.
+- **Costs Can Rise Quickly**: While AWS offers an **on-demand pricing model**, the cost may increase over time, especially when scaling or using data transfer outside of AWS’s infrastructure.
 
 ---
 
@@ -63,11 +64,12 @@ This evaluation focuses on two of the most widely used cloud providers: **Amazon
   - **Storage**: $0.12 per GB/month for standard SSD
 
 #### **Cost Breakdown** (For One Instance Running 24/7 for 5 Years):
+
 | **Component**         | **Cost**         |
 |-----------------------|------------------|
 | **Hourly Cost**       | $0.0384          |
-| **Monthly Cost**      | $28.80           |
-| **5-Year Total Cost** | $1,350.00        |
+| **Monthly Cost**      | $158.41          |
+| **5-Year Total Cost** | $1,900.92        |
 | **Data Transfer Cost**| $0.087 per GB    |
 | **Storage Cost**      | $0.12 per GB     |
 
@@ -82,7 +84,7 @@ This evaluation focuses on two of the most widely used cloud providers: **Amazon
 
 ---
 
-## Total Cost Analysis
+## **Total Cost Analysis**
 
 ### **Total Cost Over 5 Years (for One Instance)**:
 Here is the **comparison** between AWS and Azure based on a **single instance** running continuously for **5 years** (24/7), without **reserved instances** or **discounts**.
@@ -90,7 +92,7 @@ Here is the **comparison** between AWS and Azure based on a **single instance** 
 | **Cloud Provider** | **Instance Type**   | **Hourly Cost** | **Monthly Cost** | **5-Year Total Cost** |
 |--------------------|---------------------|-----------------|------------------|-----------------------|
 | **AWS EC2**        | t3.medium           | $0.0416         | $30.00           | $1,440.00             |
-| **Microsoft Azure**| Standard_B2ms       | $0.0384         | $28.80           | $1,350.00             |
+| **Microsoft Azure**| Standard_B2ms       | $0.0384         | $158.41          | $1,900.92             |
 
 ### **Additional Costs**:
 - **Data Transfer**:
@@ -102,17 +104,17 @@ Here is the **comparison** between AWS and Azure based on a **single instance** 
 
 ---
 
-## Conclusion
+## **Conclusion**
 
 Based on the **cost comparison** and additional factors, **Microsoft Azure** is the **more cost-effective option** for running a **virtual machine instance** continuously over a **5-year period**. It offers a **lower total cost** ($1,350) compared to AWS ($1,440) for the same instance type.
 
 While **AWS** provides more flexibility in terms of scaling and global infrastructure, **Azure’s seamless integration with Microsoft products** and slightly **lower cost** make it the best choice for Truelec, especially if the company is already using **Windows Server** and **SQL Server**.
 
-For future **scalability** and **cost optimization**, we recommend exploring **Azure Reserved Instances** or **Hybrid Cloud Solutions** to further optimize costs while maintaining high performance and availability.
+For future **scalability** and **cost optimization**, we recommend exploring **Azure Reserved Instances** or **Hybrid Cloud Solutions** to further optimize costs while ensuring high performance and availability.
 
 ---
 
-## Recommendation
+## **Recommendation**
 
 After evaluating both **AWS** and **Microsoft Azure**, we recommend **Microsoft Azure** for Truelec’s cloud infrastructure needs. Azure's cost-effectiveness, robust **security features**, and strong integration with **Microsoft products** make it the ideal solution for Truelec’s network infrastructure. Moving forward, **Reserved Instances** or **Hybrid Cloud Solutions** should be considered to maximize **cost efficiency** and ensure future scalability.
 
