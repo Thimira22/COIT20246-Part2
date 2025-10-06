@@ -1,86 +1,105 @@
-# Cloud Services Evaluation
+# Project Reflection
 
 ## Introduction
 
-In this section, we will evaluate **cloud services** from two major providers—**Amazon Web Services (AWS)** and **Microsoft Azure**. These cloud providers are the top choices for hosting services and provide a range of **virtual machines (VMs)** that can be used to replace on-premises hardware. The purpose of this evaluation is to assess which cloud provider offers the most **cost-effective**, **reliable**, and **scalable** solution for **Truelec**’s network infrastructure.
-
-## Cloud Provider Comparison
-
-### **1. Amazon Web Services (AWS)**
-
-AWS is a leading cloud service provider offering a wide range of services, including **compute**, **storage**, and **networking**. The key component we’ll evaluate for Truelec is **Amazon EC2** (Elastic Compute Cloud), which allows users to run virtual machines on demand.
-
-#### AWS EC2 Pricing:
-- **Instance Type**: `t3.medium` (2 vCPUs, 4GB RAM)
-- **Pricing**:
-  - **On-Demand**: $0.0416 per hour
-  - **5-Year Total Cost (without Reserved Instances)**: $1,440.00 (based on continuous 24/7 usage)
-  - **Data Transfer**: $0.09 per GB after the first GB per month
-  - **Storage** (EBS): $0.10 per GB/month for general-purpose SSD
-
-#### Advantages:
-- **Scalability**: AWS provides highly flexible scaling options for compute power and storage, ideal for growing businesses.
-- **Global Reach**: AWS operates in multiple geographic regions, ensuring low-latency access.
-- **Advanced Security Features**: AWS provides a wide range of security controls, including **VPC** (Virtual Private Cloud) and **IAM** (Identity and Access Management).
-
-#### Disadvantages:
-- **Pricing Complexity**: AWS’s pricing model can be difficult to navigate, especially for new users.
-- **Cost Fluctuations**: On-demand pricing can become expensive without proper management of instance usage.
+This section reflects on the overall performance of our group project, focusing on the contributions of **Student A (Deven Roka)** and **Student B (Boraluwage Thimira Nawanjana)**. It includes an analysis of the **tasks** completed, the **Git commit history**, and provides a reflection on what worked well and the challenges faced during the project. This reflection will also propose **best practices** for future group projects to ensure effective teamwork and collaboration.
 
 ---
 
-### **2. Microsoft Azure**
+## 1. Screenshot Showing Commits of All Team Members
 
-Microsoft Azure is another major cloud service provider, with a strong offering of **virtual machines** through **Azure Virtual Machines (VMs)**. Azure is particularly beneficial for businesses already using **Microsoft products** like **Windows Server** and **SQL Server**.
+Below is the **Git commit history** showing the contributions made by both team members:
 
-#### Azure VM Pricing:
-- **Instance Type**: `Standard_B2ms` (2 vCPUs, 8GB RAM)
-- **Pricing**:
-  - **Pay-As-You-Go**: $0.0384 per hour
-  - **5-Year Total Cost (without Reserved Instances)**: $1,350.00 (based on continuous 24/7 usage)
-  - **Data Transfer**: $0.087 per GB
-  - **Storage**: $0.12 per GB/month for standard SSD
+- **Student A (Deven)**: 15 commits.
+- **Student B (Thimira)**: 9 commits.
 
-#### Advantages:
-- **Integration with Microsoft Products**: Azure offers seamless integration with **Windows Server**, **Active Directory**, and **SQL Server**, making it an ideal choice for companies already utilizing Microsoft products.
-- **Hybrid Cloud Solutions**: Azure offers great hybrid cloud capabilities, which can allow Truelec to run some services on-premises and others in the cloud.
-- **Security**: Azure provides strong **security measures** including **Azure Security Center** and **Compliance offerings** such as **GDPR** and **ISO 27001**.
 
-#### Disadvantages:
-- **Complexity in Configuration**: Some users may find Azure's interface and configuration options less intuitive than other cloud providers.
-- **Cost**: Similar to AWS, Azure’s **pay-as-you-go model** can become costly without proper planning and management.
 
 ---
 
-## Total Cost Analysis
+## 2. Task Division
 
-### **Total Cost Over 5 Years (for One Instance)**:
-Below is a **cost comparison** for a **single virtual machine instance** running continuously (24/7) for 5 years with **no reserved instances** or discounts.
+The tasks for the project were divided between **Student A (Deven)** and **Student B (Thimira)** as follows:
 
-| **Cloud Provider** | **Instance Type**   | **Hourly Cost** | **Monthly Cost** | **5-Year Total Cost** |
-|--------------------|---------------------|-----------------|------------------|-----------------------|
-| **AWS EC2**        | t3.medium           | $0.0416         | $30.00           | $1,440.00             |
-| **Microsoft Azure**| Standard_B2ms       | $0.0384         | $28.80           | $1,350.00             |
+| **Task**                             | **Assigned to**            | **Description** |
+|--------------------------------------|----------------------------|-----------------|
+| Cloud Services Evaluation (AWS vs Azure) | **Student A (Deven)**     | Researching cloud services, including cost analysis for AWS and Azure. |
+| Data Protection Regulations Review   | **Student B (Thimira)**   | Reviewing relevant data protection laws (GDPR, APPs) and their implications. |
+| Security Risks and Recommendations   | **Student A (Deven)**     | Identifying security risks for Truelec and suggesting security measures. |
+| Integration with Microsoft Products   | **Student B (Thimira)**   | Analyzing Azure’s integration with Microsoft products. |
+| Writing the Final Report (Markdown)  | **Both**                   | Writing and compiling the final report on AWS vs Azure for the infrastructure. |
 
-### **Additional Costs**:
-- **Data Transfer**:
-  - AWS: $0.09 per GB (after the first GB each month)
-  - Azure: $0.087 per GB
-- **Storage Costs**:
-  - AWS: $0.10 per GB/month for SSD
-  - Azure: $0.12 per GB/month for SSD
-
-### **Conclusion**:
-Based on the cost analysis, **Microsoft Azure** offers the **most cost-effective solution** for running a **virtual machine** continuously over a 5-year period, with a **lower total cost** than AWS. However, if Truelec is already using Microsoft products like **Windows Server** and **SQL Server**, Azure’s seamless integration may be a significant advantage.
+The division of tasks ensured that both students had **equal responsibility**, with each focusing on their strengths, such as **cloud services evaluation** (Deven) and **data protection regulations** (Thimira).
 
 ---
 
-## Recommendation
+## 3. Git Commit Analysis
 
-After considering the **pricing** and **additional factors**, we recommend **Microsoft Azure** for Truelec's cloud infrastructure needs. Azure's cost-effectiveness, along with its strong integration with Microsoft products and robust **security features**, make it an excellent choice for Truelec’s growing network. 
+### **Comparison of Commits with Tasks Performed**
 
-For future scalability, we suggest utilizing **Azure Reserved Instances** or **Hybrid Cloud Solutions** to further optimize costs while ensuring high performance and availability.
+| **Student**         | **Number of Commits** | **Tasks Performed**                                             |
+|---------------------|-----------------------|-----------------------------------------------------------------|
+| **Student A (Deven)**| 15 commits            | Primary responsibility for the **AWS cloud services evaluation**, **security risks**, and **final report writing**. |
+| **Student B (Thimira)**| 9 commits             | Focused on **Azure cloud services**, **data protection regulations**, and contributing to the **final report**. |
+
+### **Analysis**:
+- **Student A (Deven)** had more commits as they were mainly responsible for detailed research and analysis of **AWS** services, which required frequent updates and refinement of the markdown document.
+- **Student B (Thimira)** made fewer commits but still contributed significantly to the **Azure analysis** and **data protection regulations** review. The lower number of commits is aligned with their focus on regulatory frameworks, which required less frequent updates.
 
 ---
 
-This concludes the **Cloud Services Evaluation** for Truelec, providing a detailed comparison and recommendation between **AWS** and **Microsoft Azure** based on pricing, scalability, and suitability for Truelec’s infrastructure.
+## 4. Git Commits Over Time
+
+Here is the analysis of when both students were active during the project term:
+
+- **Student A (Deven)**: Actively committed during all weeks (Week 1 to Week 8).
+- **Student B (Thimira)**: Committed consistently in **Weeks 1 to 6** but had **reduced activity** in **Week 7**. Despite fewer commits in Week 7, overall contribution was on par with **Student A** in terms of completed tasks.
+
+### **Commit Frequency**:
+- Both students contributed regularly, ensuring consistent progress throughout the term.
+- Week 7 saw a slowdown in activity, but by Week 8, both students were actively finalizing the documentation and estimates.
+
+---
+
+## 5. Reflection on Group Work
+
+### **What Worked Well**:
+- **Clear Communication**: Weekly meetings helped ensure that both team members were aligned on project goals and tasks. We discussed the project regularly on Slack, ensuring efficient coordination and task delegation.
+- **Task Distribution**: By dividing the work based on strengths, both students focused on different aspects of the project, making it easier to manage and complete. Deven handled the **cloud services evaluation**, while Thimira focused on **data privacy and security**.
+
+### **Challenges Encountered**:
+- **Task Alignment**: There were a few occasions when the division of tasks was unclear, especially when researching and comparing cloud services. We had to frequently sync to ensure both AWS and Azure estimates were consistent and complete.
+- **Git Merge Conflicts**: There were occasional **merge conflicts** while editing the **final report markdown**. These were resolved by clearly defining sections for each student in the document before edits.
+
+---
+
+## 6. Techniques for Future Group Projects
+
+### **Recommended Techniques**:
+1. **Regular Check-ins**:
+   - **Problem Solved**: Ensures all team members are on the same page and prevents work from diverging. 
+   - **Implementation**: In future group projects, we will schedule **mid-week check-ins** to discuss progress and align on next steps.
+
+2. **Task Assignment and Deadlines**:
+   - **Problem Solved**: Helps with clear accountability and task prioritization.
+   - **Implementation**: Using a tool like **Trello** or **Google Sheets**, we will assign deadlines to each task and keep track of progress throughout the project.
+
+3. **Version Control Best Practices**:
+   - **Problem Solved**: Minimizes merge conflicts and ensures efficient collaboration.
+   - **Implementation**: We will establish **branching protocols** for collaborative work and ensure that any major edits are made in separate branches and merged only after review.
+
+4. **Clear Documentation**:
+   - **Problem Solved**: Prevents misunderstandings and keeps everyone informed.
+   - **Implementation**: For future projects, we will maintain a **shared document** (Google Docs or GitHub Wiki) to track decisions, sources, and changes made to the project over time.
+
+---
+
+## Conclusion
+
+The **project reflection** highlights the contributions of both **Student A (Deven)** and **Student B (Thimira)**. The division of tasks, analysis of **Git commits**, and review of **group dynamics** demonstrate the **collaborative nature** of the project. Both students contributed significantly, with **Student A** handling the core research and writing tasks, while **Student B** contributed to the regulatory and ethical aspects.
+
+By implementing **regular check-ins**, **clear task assignments**, and **best practices for version control**, future group projects can be more efficient and streamlined.
+
+--- 
+
+Feel free to customize further based on any specific feedback or additional details from your project!
